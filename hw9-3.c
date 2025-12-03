@@ -60,7 +60,7 @@ int main(){
         }
     }
 
-    printf("The multiplication product of matrix A and matrix B :\n");
+    printf("The multiplication product of matrix A and matrix B:\n");
     for(i = 0; i < 2; i++){
         for(j = 0; j < 2; j++){
             if(is_integer(c[i][j])){

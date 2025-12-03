@@ -21,13 +21,12 @@ void main(){
     }
 
     printf("Output\n");
-    for(int i=2;i>=0;i--){
+    for(int i=0;i<=2;i++){
         for(int j = 2 ; j >=0 ; j--){
-            printf("%d ",coeff[i][j]);
+            printf("%d  ",coeff[i][j]);
         }
         printf("\n");
     }
-
 
 
 }

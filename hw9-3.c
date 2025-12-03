@@ -28,10 +28,10 @@ int main(){
     for(i = 0; i < 2; i++){
         for(j = 0; j < 3; j++){
             if(is_integer(a[i][j])){
-                printf("%.1f ", a[i][j]);
+                printf("%.0f ", a[i][j]);
             }
             else{
-                printf("%f ", a[i][j]);
+                printf("%.1f ", a[i][j]);
             }
         }
         printf("\n");
@@ -42,10 +42,10 @@ int main(){
     for(i = 0; i < 3; i++){
         for(j = 0; j < 2; j++){
             if(is_integer(b[i][j])){
-                printf("%.1f ", b[i][j]);
+                printf("%.0f ", b[i][j]);
             }
             else{
-                printf("%f ", b[i][j]);
+                printf("%.1f ", b[i][j]);
             }
         }
         printf("\n");

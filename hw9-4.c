@@ -25,7 +25,8 @@ int main(){
 
     }    
 
-    printf("%s\n",hex_code);
+    printf("The hex code is %s\n",hex_code);
     return 0;
+
 
 };

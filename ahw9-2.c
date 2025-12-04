@@ -25,7 +25,8 @@ int main(){
         sorted_arr[j] = arr[ind];
         remove_element(arr, &n, ind);
             }
+    printf("sorted array:\n");
     for (int i = 0; i < 5; i++) {
-        printf("%d\n", sorted_arr[i]);
+        printf("%d ", sorted_arr[i]);
 }
     }
